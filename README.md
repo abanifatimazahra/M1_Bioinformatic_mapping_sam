@@ -3,6 +3,7 @@
 								README 
 
 Our bioinformatics project consists in the processing and analysis of the data resulting from the alignment of the sequencing data.
+
 Variation in sequencing data types (paired reads, single reads...) leads to variation in alignment data. These data, which are stored in a SAM format file, can be summarized as follows:
 
 * Read's name : NAME of the request sequence.
