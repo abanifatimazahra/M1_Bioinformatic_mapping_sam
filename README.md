@@ -2,19 +2,14 @@
 M1 Bioinformatic project for analysis SAM's mapping files
 
 								README 
-
--Our bioinformatics project consists in the processing and analysis of the data resulting from the alignment of the sequencing data.
--Variation in sequencing data types (paired reads, single reads...) leads to variation in alignment data. These data, which are stored in a SAM format file, can be summarized as follows:
-
-	Read's name : NAME of the request sequence.
-	FLAG : Combination of FLAGs at bit level.
-	Reference : reference sequence name. Ref is set to '*' when we have no reference.
-	Reference's position : The first base of a reference sequence has coordinate 1. POS is set to 0 for an unmapped read.
-	Mapping quality : Basic ASCII plus 33 quality.
-	CIGAR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read.
-	
--To help you use the Script we have developed, we invite you to read this description and respect the conditions of use.
-
+Our bioinformatics project consists in the processing and analysis of the data resulting from the alignment of the sequencing data.
+Variation in sequencing data types (paired reads, single reads...) leads to variation in alignment data. These data, which are stored in a SAM format file, can be summarized as follows:
+	- Read's name : NAME of the request sequence.
+	- FLAG : Combination of FLAGs at bit level.
+	- Reference : reference sequence name. Ref is set to '*' when we have no reference.
+	- Reference's position : The first base of a reference sequence has coordinate 1. POS is set to 0 for an unmapped read.
+	- Mapping quality : Basic ASCII plus 33 quality.
+	- CIGAR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and 	letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read
 							SCRIPT EXECUTION
 
 -This script can be executed only under Linux(Ubuntu) with python 3.
