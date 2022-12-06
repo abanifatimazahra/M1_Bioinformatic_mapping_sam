@@ -11,7 +11,8 @@ M1 Bioinformatic project for analysis SAM's mapping files
 	Reference : reference sequence name. Ref is set to '*' when we have no reference.
 	Reference's position : The first base of a reference sequence has coordinate 1. POS is set to 0 for an unmapped read.
 	Mapping quality : Basic ASCII plus 33 quality.
-	CIG.AR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and 	letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read
+	CIGAR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read.
+	
 -To help you use the Script we have developed, we invite you to read this description and respect the conditions of use.
 
 							SCRIPT EXECUTION
