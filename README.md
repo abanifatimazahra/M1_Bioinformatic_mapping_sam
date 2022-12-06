@@ -58,7 +58,7 @@ Number of aligned reads
 
 								 TEST
 								
--The application of our script on the file mapping.sam allowed us to obtain the following results :
+-The application of our script on the file mapping.sam allowed us to obtain the following results for 264 reads :
 ```
 Total number of reads:  351330
 Number of referenced reads:  350030
