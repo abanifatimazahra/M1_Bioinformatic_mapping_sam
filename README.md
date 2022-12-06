@@ -17,7 +17,7 @@ Variation in sequencing data types (paired reads, single reads...) leads to vari
 
 							SCRIPT EXECUTION
 
--This script can be executed only under Linux(Ubuntu) with python 3.
+-This script can be executed under Linux(Ubuntu 22.04.1 LTS) with Python 3.10.6.
 
 -You must give the name of the SAM file you want to analyze as a first parameter after the execute command of this script.
 
