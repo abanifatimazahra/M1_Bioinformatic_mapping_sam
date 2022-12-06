@@ -1,15 +1,19 @@
 # M1_Bioinformatic_mapping_sam
-M1 Bioinformatic project for analysis SAM's mapping files
-
+							
 								README 
+
 Our bioinformatics project consists in the processing and analysis of the data resulting from the alignment of the sequencing data.
 Variation in sequencing data types (paired reads, single reads...) leads to variation in alignment data. These data, which are stored in a SAM format file, can be summarized as follows:
-	- Read's name : NAME of the request sequence.
-	- FLAG : Combination of FLAGs at bit level.
-	- Reference : reference sequence name. Ref is set to '*' when we have no reference.
-	- Reference's position : The first base of a reference sequence has coordinate 1. POS is set to 0 for an unmapped read.
-	- Mapping quality : Basic ASCII plus 33 quality.
-	- CIGAR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and 	letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read
+
+* Read's name : NAME of the request sequence.
+* FLAG : Combination of FLAGs at bit level.
+* Reference : reference sequence name. Ref is set to '*' when we have no reference.
+* Reference's position : The first base of a reference sequence has coordinate 1. POS is set to 0 for an unmapped read.
+* Mapping quality : Basic ASCII plus 33 quality.
+* CIGAR : Concise Idiosyncratic Gapped Alignment Report. This parameter is formed by an alternative succession of numbers and 	letters that describe the insertions, deletions, matches and mismatches that result from the alignment of each read
+
+-To help you use the Script we have developed, we invite you to read this description and respect the conditions of use.
+
 							SCRIPT EXECUTION
 
 -This script can be executed only under Linux(Ubuntu) with python 3.
@@ -43,23 +47,28 @@ Otherwise, this quality check will be performed with a default quality value of 
 	The reads with a CIGAR different to 1M
 	
 -The results of the analysis are printed on the terminal as:
-	Total number of reads
-	Number of referenced and non referenced reads
-	Number of reads with a quality superior to  20 and reads with a quality 
-	Number of paired reads
-	Number of aligned reads
+```
+Total number of reads
+Number of referenced
+Number of reads with a quality superior to  20 and reads with a quality 
+Number of paired reads
+Number of aligned reads
+```
 
+								
 								LIMITS
 
 -This script can get stuck in two cases:
-	If the SAM file contains reads without mate.
-	If the SAM file starts with empty.
+* If the SAM file contains reads without mate.
+* If the SAM file starts with empty.
 
 								 TEST
 								
 -The application of our script on the file mapping.sam allowed us to obtain the following results :
-	Total number of reads:  351330
-	Number of referenced reads:  350030
-	Number of reads with a quality superior to  20 :  316008
-	Number of paired reads:  349998
-	Number of aligned reads:  349962
+```
+Total number of reads:  351330
+Number of referenced reads:  350030
+Number of reads with a quality superior to  20 :  316008
+Number of paired reads:  349998
+Number of aligned reads:  349962
+```
