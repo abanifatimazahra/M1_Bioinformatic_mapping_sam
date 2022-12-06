@@ -55,12 +55,6 @@ Number of paired reads
 Number of aligned reads
 ```
 
-								
-								LIMITS
-
--This script can get stuck in two cases:
-* If the SAM file contains reads without mate.
-* If the SAM file starts with empty.
 
 								 TEST
 								
