@@ -60,9 +60,9 @@ Number of aligned reads
 								
 -The application of our script on the file mapping.sam allowed us to obtain the following results for 264 reads :
 ```
-Total number of reads:  351330
-Number of referenced reads:  350030
-Number of reads with a quality superior to  20 :  316008
-Number of paired reads:  349998
-Number of aligned reads:  349962
+Total number of reads:  264
+Number of referenced reads:  264
+Number of reads with a quality superior to  20 :  238
+Number of paired reads:  264
+Number of aligned reads:  264
 ```
